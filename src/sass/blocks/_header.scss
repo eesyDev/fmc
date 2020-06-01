@@ -1,0 +1,29 @@
+.header {
+    padding: 19px 16px;
+    &_wrapper {
+        height: 85px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &_item {
+        display: flex;
+    }
+    &_flag {
+        width: 28px;
+        height: 21px;
+        margin-right: 11px;
+    }
+    &_contact {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 700;
+        color: #242424;
+        align-items: center;
+        width: 130px;
+    }
+    &_phone {
+        font-size: 12px;
+        font-weight: 300;
+    }
+}

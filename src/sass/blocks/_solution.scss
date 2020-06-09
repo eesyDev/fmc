@@ -1,0 +1,20 @@
+.solution {
+    min-height: 896px;
+    padding: 79px 81px;
+    &_arrow {
+        display: flex;
+        margin: 50px 37px;
+        img {
+            margin: 0 auto;
+        }
+
+    }
+    &_wrapper_up {
+        display: flex;
+        justify-content: space-between;
+    }
+    &_wrapper_down {
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,53 @@
+.footer {
+    min-height: 497px;
+    background-color: #0082a1;
+    padding: 49px 40px;
+    &_wrapper {
+        display: flex;
+        justify-content: space-between;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffffff;
+        h6 {
+            font-size: 16px;
+            line-height: 19px;
+            font-weight: 700;
+            
+        }
+    }
+    &_company {
+        width: 377px;
+        img {
+            margin: 33px 20px;
+        }
+    }
+    &_module {
+        width: 263px;
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+    }
+    &_branch {
+        width: 111px;
+        ul {
+            list-style-type: none;
+            padding: 0; 
+        }
+    }
+    &_year {
+        font-family: Roboto;
+        margin-top: 36px;
+        text-align: center;
+        font-size: 13px;
+        line-height: 17px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    hr {
+        width: 1171px;
+        margin-top: 44px;
+        height: 1px;
+    }
+}

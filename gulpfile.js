@@ -62,7 +62,7 @@ gulp.task('mailer', function () {
 gulp.task('images', function () {
     return gulp.src("src/img/**/*")
         .pipe(imagemin())
-        .pipe(gulp.dest("dist/images"));
+        .pipe(gulp.dest("dist/img"));
 });
 
 gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'fonts', 'icons','mailer', 'html', 'images' ));

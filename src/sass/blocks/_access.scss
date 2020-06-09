@@ -1,0 +1,31 @@
+.access {
+    min-height: 690px;
+    padding: 80px 76px;
+    &_img {
+        display: flex;
+        margin: 0 auto;
+        img {
+            margin: 0 auto;
+        }
+    }
+    &_descr {
+        font-family: Roboto;
+        text-align: center;
+        margin-top: 74px;
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 900;
+        color: #393939
+    }
+    &_button {
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        display: block;
+        margin: 26px auto 0;
+        border: none;
+    } 
+}

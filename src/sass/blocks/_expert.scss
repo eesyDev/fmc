@@ -1,0 +1,68 @@
+.fade {
+    animation-name: fade;
+    animation-duration: 2.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2.5s;
+  }
+  @-webkit-keyframes fade {
+    from {opacity:.1}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade{
+    from {opacity: .1}
+    to {opacity: 1}
+  }
+.expert {
+    min-height: 889px;
+    padding: 79px 61px;
+    background: url(../img/send_scr_bgnd.png) center (center/cover) no-repeat;
+    &_h3 {
+        font-family: Roboto;
+        text-align: center;
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 900;
+        color: #ffffff;
+    }
+}
+.tabs {
+    width: 947px;
+    min-height: 560px;
+    margin: 25px auto;
+    &_caption {
+        width: 843px;
+        height: 64px;
+        border: 1.0px solid #ffffff;
+        display: flex;
+        justify-content: space-around;
+        padding: 24px 26px;
+        margin: 0 auto;
+        &_list {
+            font-family: Roboto;
+            font-size: 14px;
+            cursor: pointer;
+            font-weight: 400;
+            color: #ffffff;
+            list-style-type: none;
+        }
+    
+    }
+    &_content {
+        display: none;
+        // transition: 0.3s;
+    }
+    &_content.active {
+        display: block;
+        width: 100%;
+        margin-top: 36px;
+        &_photo {
+            width: 947px;
+            height: 560px;
+            display: block;
+            margin: 0 auto;
+            background-color: rgba(256, 256, 256, .001);
+
+        }
+    }
+}

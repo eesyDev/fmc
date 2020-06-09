@@ -1,0 +1,23 @@
+.advance {
+    min-height: 889px;
+    padding: 81px 80px;
+    &_title {
+        font-family: Roboto;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 900;
+        color: #393939;
+        margin-bottom: 44px;
+    }
+    &_item_left {
+        width: 570px;
+        display: inline-block;
+        img {
+            width: 100%;
+        }
+    }
+    &_item_right {
+        width: 570px;
+        display: inline-block;
+    }
+}

@@ -1,5 +1,6 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/fonts';
+@import 'libs/slick';
 
 * {
     font-family: 'Roboto';
@@ -11,3 +12,10 @@
 
 @import 'blocks/header';
 @import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/solution';
+@import 'blocks/expert';
+@import 'blocks/advance';
+@import 'blocks/double_screen';
+@import 'blocks/access';
+@import 'blocks/footer';

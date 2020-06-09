@@ -1,4 +1,152 @@
 .promo {
+    position: relative;
     min-height: 700px;
-    background: url('../img/promo_background.png') center (center/cover) no-repeat;
+    // background: url('../img/promo_background.png') center (center/cover) no-repeat;
+    &_upper {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: content-box;
+        width: 1140px;
+        height: 65px;
+        padding-top: 39px;
+        z-index: 2;
+    }
+    &_logo {
+        width: 140px;
+        height: 65px;
+    }
+    &_menu {
+        width: 540px;
+        font-family: Roboto;
+        font-size: 13px;
+        line-height: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-top: 25px;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none; 
+            a {
+                color: #ffffff;
+            }
+        }
+    }
+    &_descr {
+        position: relative;
+        z-index: 2;
+    }
+    &_title {
+        position: absolute;
+        font-family: Roboto;
+        font-size: 42px;
+        font-weight: 700;
+        top: 237px;
+        color: #ffffff;
+    }
+    &_subtitle {
+        position: absolute;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 300;
+        top: 353px;
+        color: #ffffff;
+        span {
+            font-weight: 400;
+        }
+    }
+    &_iphone {
+        position: absolute;
+        left: 860px;
+        top: 162px;
+        z-index: 2;
+    }
+   .carousel {
+        margin-top: 0;
+        div {
+            width: 100%;
+            height: 700px;
+        }
+        &_img {
+            display: block;
+        }
+        }
+        &_button {
+            position: absolute;
+            font-family: Roboto;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #ffffff;
+            top: 441px;
+            z-index: 2;
+        }
+
+}
+.slick-prev, .slick-next {
+    position: absolute;
+    z-index: 2;
+    border: none;
+    background-color: rgba(256, 256, 256, .001);
+    &:focus {
+        outline: none;
+    }
+}
+.slick-next {
+    left: 710px;
+    top: 621px;
+} 
+.slick-prev {
+    top: 621px;
+    left: 611px;
+}
+.slick-dots {
+    position: absolute;
+    top: 621px;
+    left: 590px;
+    li {
+        position: relative;
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
+    }
+    li button {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        cursor: pointer;
+        color: transparent;
+        border: 0;
+        outline: none;
+        background: transparent;
+    }
+    li button:before {
+        font-family: 'slick';
+        font-size: 6px;
+        line-height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20px;
+        height: 20px;
+        content: url('../icon/dots.png');
+        text-align: center;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .slick-dots li.slick-active button:before {
+        opacity: 0.1;
+        color: #aaaaaa;
+        content: url('../../icon/round.png');
+      }
+    
 }

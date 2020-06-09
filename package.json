@@ -1,7 +1,6 @@
 {
   "name": "pulsometer",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +17,14 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rano-bot/fmc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rano-bot/fmc/issues"
+  },
+  "homepage": "https://github.com/Rano-bot/fmc#readme",
+  "description": ""
 }

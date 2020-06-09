@@ -1,0 +1,61 @@
+.double_screen {
+    min-height: 580px;
+    background: url(../img/double_back.png) center (center/cover) no-repeat;
+    padding-top: 79px;
+    &_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &_title {
+        font-family: Roboto;
+        text-align: center;
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 900;
+        color: #ffffff;
+    }
+    &_left {
+        display: flex;
+        flex-direction: column;
+        width: 483px;
+        align-items: flex-end;
+        h2 {
+            margin-top: 128px;
+            font-family: Roboto;
+            font-size: 25px;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+        &_descr {
+            display: flex;
+            justify-content: flex-end;
+            font-family: Roboto;
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 300;
+            color: #ffffff;
+        }
+    }
+    &_right {
+        display: flex;
+        flex-direction: column;
+        width: 483px;
+        align-items: flex-start;
+        h2 {
+            margin-top: 128px;
+            font-family: Roboto;
+            font-size: 25px;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #ffffff;
+        }
+        &_descr {
+            font-family: Roboto;
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 300;
+            color: #ffffff; 
+        }
+    }
+}
